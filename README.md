@@ -30,4 +30,9 @@ Open index.html to test the build.
 
 A project build is already provided in the build folder thus no need to execute the previous step.
 
+##Known issues:
+When accessing the build version there's an error in the console that needs to be investigated.
+The functionality of the app it's not affected by this issue. 
+It seems to be something related to the inability of the webpack loader to deal with the vendor stylesheet used by the weather fontincons.
+
 ##For a demo of the app just open build/index.html
