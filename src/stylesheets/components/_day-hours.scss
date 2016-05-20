@@ -1,0 +1,21 @@
+.ow-day-hours {
+  height: $thHeight;
+  margin-bottom: 5px;
+  background-color: $color2;
+  color: $color5;
+  .ow-day-hour {
+    width: $tileWidth;
+    float: left;
+    overflow: hidden;
+    font-family: $typ1;
+    font-size: 16px;
+    line-height: $thHeight;
+    text-align: center;
+  }
+  @media (max-width: 639px) {
+    .ow-day-hour {
+      font-size: 11px;
+    }
+  }
+}
+

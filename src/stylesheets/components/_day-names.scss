@@ -1,0 +1,21 @@
+.ow-day-names {
+  width: $sideWidth;
+  padding-right: 5px;
+  margin-top: $thHeight + 5px;
+  float: left;
+  .ow-day-name {
+    height: $rowHeight;
+    margin-bottom: 5px;
+    background-color: $color3;
+    color: $color4;
+    font-family: $typ1;
+    font-size: 20px;
+    line-height: $rowHeight;
+    text-align: center;
+  }
+  @media (max-width: 639px) {
+    .ow-day-name {
+      font-size: 16px;
+    }
+  }
+}

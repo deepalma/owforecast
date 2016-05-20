@@ -1,0 +1,47 @@
+.ow-snapshot {
+  height: 100%;
+  width: $tileWidth;
+  float: left;
+  text-align: center;
+  .ow-tile {
+    height: 100%;
+    padding: 10%;
+    color: $color4;
+    .ow-icon {
+      margin: 5px;
+      font-size: 30px;
+      text-shadow: 3px 2px 0px rebeccapurple;
+    }
+    .max, .min {
+      display: inline-block;
+      font-family: $typ1;
+      white-space: nowrap;
+    }
+    .max {
+      width: 40px;
+      margin-right: 5px;
+      font-size: 16px;
+    }
+    .min {
+      width: 32px;
+      font-size: 12px;
+    }
+  }
+  .ow-empty-tile {
+    height: 100%;
+  }
+  @media (max-width: 639px) {
+    .ow-tile {
+      padding: 7%;
+      .max {
+        width: 40px;
+        font-size: 14px;
+      }
+      .min {
+        width: 32px;
+        font-size: 10px;
+      }
+    }
+  }
+}
+
